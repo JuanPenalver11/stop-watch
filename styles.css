@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    background: url(img/red-beetle-1416148.jpg)no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0;
+    height: 30%;
+    width: 30%;
+}
+
+#timer{
+    width: 100%;
+    margin-top: 40px;
+    font-size:90px;
+    text-align: center;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+
+button{
+    margin: 0 10px;
+    box-shadow: 0 0 3px 0;
+}
+
+button i{
+    font-size: 2rem;
+    padding: 10px;
+    color: #fff;
+    width: 50px;
+}
+
+#play{
+    background-color: green;
+}
+#pause{
+    background-color: orange;
+}
+#reset{
+    background-color: red;
+}
